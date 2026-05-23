@@ -1,6 +1,6 @@
 # TelaRec
 
-> A Thermoelastic Wave-based Sequential Recommendation model built on RecBole.
+> _Building Sequential Recommendation Models upon Thermoelastic Spectral Operators_ on RecBole.
 
 ---
 
