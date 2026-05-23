@@ -1,0 +1,28 @@
+# WaveRec settings (v5 — Parameter Reduction & Spectral Dropout)
+hidden_size: 64                 # (int) Number of features in the hidden state.
+num_layers: 2                   # (int) Number of ThermoelasticWave layers.
+dropout_prob: 0.5               # (float) Standard dropout rate.
+loss_type: 'CE'                 # (str) Type of loss function. Range in ['BPR', 'CE'].
+
+lpf_ratio: 0.1
+spectral_dropout_prob: 0.1
+
+c_init: 1.0                    # (float) Initial dispersive wave speed c(n).
+alpha_init: 0.001                # (float) Initial wave damping coefficient α.
+kappa_init: 0.1                # (float) Initial heat diffusion coefficient κ.
+
+# sports 'alpha_init': 0.0001, 'c_init': 0.5, 'kappa_init': 0.5
+
+# beauty
+
+#c_init: 1.0                    # (float) Initial dispersive wave speed c(n).
+#alpha_init: 0.001                # (float) Initial wave damping coefficient α.
+#kappa_init: 0.1
+
+# elec {'alpha_init': 0.01, 'c_init': 0.5, 'kappa_init': 0.01}
+
+# video {'alpha_init': 0.001, 'c_init': 0.1, 'kappa_init': 0.5}
+
+# gowalla-m {'alpha_init': 0.01, 'c_init': 0.1, 'kappa_init': 0.001}
+
+# ml-1m {'alpha_init': 0.001, 'c_init': 1.0, 'kappa_init': 0.001}

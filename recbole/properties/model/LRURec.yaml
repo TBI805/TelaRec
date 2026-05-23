@@ -1,0 +1,6 @@
+# LRURec settings
+hidden_size: 64                 # (int) Number of features in the hidden state.
+n_layers: 2                  # (int) Number of layers.
+dropout_prob: 0.5            # (float) Dropout rate.
+loss_type: 'CE'                # (str) The type of loss function. Range in ['BPR', 'CE'].                # (str) Type of loss function. Range in ['BPR', 'CE'].
+

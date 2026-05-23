@@ -1,0 +1,10 @@
+
+# FMLPRec settings
+hidden_size: 64                 # (int) Number of features in the hidden state.
+num_layers: 2                   # (int) Number of Mamba layers.
+dropout_prob: 0.5               # (float) Dropout rate.
+loss_type: 'CE'
+
+num_subspaces: 16
+epsilon: 0.4
+pvm_use_layer_norm: False

@@ -1,0 +1,11 @@
+
+hidden_size: 64              # (int) Number of features in the hidden state.
+n_heads: 8
+num_layers: 2                 # (int) Number of Mamba layers.
+dropout_prob: 0.5               # (float) Dropout rate.
+loss_type: 'CE'                 # (str) Type of loss function. Range in ['BPR', 'CE'].
+layer_norm_eps: 1e-12
+
+d_state: 32                   # (int) SSM state expansion factor
+d_conv: 4                       # (int) Local convolution width
+expand: 2                       # (int) Block expansion factor                      # (int) Local convolution width
