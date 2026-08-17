@@ -71,3 +71,7 @@ Here are the optimal settings for `c_init`, `alpha_init`, and `kappa_init` extra
 | **Elec** | `0.5` | `0.01` | `0.01` | `python run_recbole.py --model=TelaRec --dataset=elec --c_init=0.5 --alpha_init=0.01 --kappa_init=0.01` |
 | **Gowalla-M** | `0.1` | `0.01` | `0.001` | `python run_recbole.py --model=TelaRec --dataset=gowalla-m --c_init=0.1 --alpha_init=0.01 --kappa_init=0.001` |
 | **ML-1M** | `1.0` | `0.001` | `0.001` | `python run_recbole.py --model=TelaRec --dataset=ml-1m --c_init=1.0 --alpha_init=0.001 --kappa_init=0.001` |
+
+## Acknowledgments
+
+This implementation is based on the [RecBole](https://github.com/RUCAIBox/RecBole) recommendation library. We appreciate their outstanding work.
