@@ -1,6 +1,6 @@
 # TelaRec
 
-> _Building Sequential Recommendation Models upon Thermoelastic Spectral Operators
+> _Building Sequential Recommendation Models upon Thermoelastic Spectral Operators (CIKM 2026)
 
 ---
 
