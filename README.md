@@ -1,6 +1,6 @@
 # TelaRec
 
-> _Building Sequential Recommendation Models upon Thermoelastic Spectral Operators_ on RecBole.
+> _Building Sequential Recommendation Models upon Thermoelastic Spectral Operators
 
 ---
 
