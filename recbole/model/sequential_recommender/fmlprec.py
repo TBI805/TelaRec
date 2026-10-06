@@ -12,16 +12,7 @@ class FMLPRec(SequentialRecommender):
         self.loss_type = config["loss_type"]
         self.num_layers = config["num_layers"]
         self.dropout_prob = config["dropout_prob"]
-
-        # Hyperparameters for Mamba block
-        self.d_state = config["d_state"]
-        self.d_conv = config["d_conv"]
-        self.expand = config["expand"]
         self.seq_len = config["MAX_ITEM_LIST_LENGTH"]
-
-        self.num_subspaces = config["num_subspaces"]
-        self.epsilon = config["epsilon"]
-        self.pvm_use_layer_norm = config['pvm_use_layer_norm']
 
         self.item_embedding = nn.Embedding(
             self.n_items, self.hidden_size, padding_idx=0
