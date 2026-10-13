@@ -68,7 +68,7 @@ Here are the optimal settings for `c_init`, `alpha_init`, and `kappa_init` extra
 | **Beauty** | `1.0` | `0.001` | `0.1` | `python run_recbole.py --model=TelaRec --dataset=beauty --c_init=1.0 --alpha_init=0.001 --kappa_init=0.1` |
 | **Sports** | `0.5` | `0.0001` | `0.5` | `python run_recbole.py --model=TelaRec --dataset=sports --c_init=0.5 --alpha_init=0.0001 --kappa_init=0.5` |
 | **Video** | `0.1` | `0.001` | `0.5` | `python run_recbole.py --model=TelaRec --dataset=video --c_init=0.1 --alpha_init=0.001 --kappa_init=0.5` |
-| **Elec** | `0.5` | `0.01` | `0.01` | `python run_recbole.py --model=TelaRec --dataset=elec --c_init=0.5 --alpha_init=0.01 --kappa_init=0.01` |
+| **Electronics** | `0.5` | `0.01` | `0.01` | `python run_recbole.py --model=TelaRec --dataset=elec --c_init=0.5 --alpha_init=0.01 --kappa_init=0.01` |
 | **Gowalla-M** | `0.1` | `0.01` | `0.001` | `python run_recbole.py --model=TelaRec --dataset=gowalla-m --c_init=0.1 --alpha_init=0.01 --kappa_init=0.001` |
 | **ML-1M** | `1.0` | `0.001` | `0.001` | `python run_recbole.py --model=TelaRec --dataset=ml-1m --c_init=1.0 --alpha_init=0.001 --kappa_init=0.001` |
 
