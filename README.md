@@ -82,10 +82,10 @@ If you find this work useful, please cite it as:
 
 ```bibtex
 @inproceedings{10.1145/3799682.3841137,
-author = {Hu, Juntao and Dong, Ruyue and Du, Xiao and Shen, Huayi and Zhou, Wei and Wen, Junhao},
-title = {Building Sequential Recommendation Models upon Thermoelastic Spectral Operators},
-year = {2026},
-booktitle = {Proceedings of the 35th ACM International Conference on Information and Knowledge Management},
-pages = {1617–1628}
+    author = {Hu, Juntao and Dong, Ruyue and Du, Xiao and Shen, Huayi and Zhou, Wei and Wen, Junhao},
+    title = {Building Sequential Recommendation Models upon Thermoelastic Spectral Operators},
+    year = {2026},
+    booktitle = {Proceedings of the 35th ACM International Conference on Information and Knowledge Management},
+    pages = {1617–1628}
 }
 ```
